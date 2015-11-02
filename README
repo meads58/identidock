@@ -1,0 +1,8 @@
+A webserver that just returns hello and has been turned into a docker image.
+
+The container can then be run in Dev or production mode.
+
+##Setup
+```dockebuild -t identidock .```
+For Dev mode run ```dockerun -e "ENV=DEV" -p 5000:5000 identidock```
+Production mode emmits the -e option and port
